@@ -135,9 +135,9 @@ dmypy.json
 .DS_Store
 Thumbs.db
 
-# Exclude algotitmos_2026 folder (another repository)
-.algotitmos_2026/
-algotitmos_2026/**
-algotitmos_2026/**/*
-.algotitmos_2026/**
-algotitmos_2026/
+# Exclude algoritmos_2026 folder (another repository)
+.algoritmos_2026/
+algoritmos_2026/**
+algoritmos_2026/**/*
+.algoritmos_2026/**
+algoritmos_2026/
