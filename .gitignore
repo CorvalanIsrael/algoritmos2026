@@ -49,6 +49,8 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
+algoritmos_2026/
+
 # Translations
 *.mo
 *.pot
@@ -138,4 +140,4 @@ Thumbs.db
 algotitmos_2026/**
 algotitmos_2026/**/*
 .algotitmos_2026/**
-algotitmos_2026
+algotitmos_2026/
