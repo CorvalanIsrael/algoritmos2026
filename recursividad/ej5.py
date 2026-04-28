@@ -24,16 +24,21 @@ def num_romano(n: int) -> str:
     
 def num_decimal(s: str) -> int:
     num = 0
-    for car in s:
-        if car == ("i" or "I") and num=-=5:
-            #s = s[:-1]
-            num-=1
-        #elif car == ("v" or "V") and num < 1:
-            if car == "v" or car == "V":
-                #s = s[:-1]
-                num += 5
+    
+    for car in reversed(s):
+        if car == ("i" or "I") and num<=3:
+            num += 1
+        else:
+            if car == ("i" or "I") and num==5:
+                num-=1
+            elif car == ("i" or "I") and (num%10==0 and num>=10):
+                num-=1
+        
+        if car == "v" or car == "V":
+            
+            num += 5
         if car == "x" or car == "X":
-            #s = s[:-1]
+            
             num += 10
     return num
 

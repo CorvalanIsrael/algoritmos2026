@@ -135,3 +135,7 @@ Thumbs.db
 
 # Exclude algotitmos_2026 folder (another repository)
 .algotitmos_2026/
+algotitmos_2026/**
+algotitmos_2026/**/*
+.algotitmos_2026/**
+algotitmos_2026
