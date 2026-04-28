@@ -3,7 +3,7 @@ def factorial_recursivo (n):
     if n == 0:
         return 1
     else:
-        return n *factorial (n-1)
+        return n *factorial_recursivo (n-1)
     
 def factorial_iterativo (n):
     result = 1
